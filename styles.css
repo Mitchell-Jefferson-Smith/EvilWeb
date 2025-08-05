@@ -1,0 +1,52 @@
+/* start of Index */
+/*Unerversal selector*/
+* {
+    color: #b80000;
+}
+
+body {
+    background-color: #cabbbb;
+}
+p{
+    color: rgb(62, 124, 1);
+}
+
+h2{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#dromatic {
+    color: #cc0000;
+    background-color: black;
+    border: 1em solid #7e0000;
+    padding: 0.5em;
+}
+
+
+/*id selector*/
+#Header {
+    color: #000d7e;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 200%;
+}
+
+/*Class selector*/
+.info {
+    color: rgb(128, 0, 79);
+}
+
+/* End of Index */
+/* start of EvilPlans */
+
+body2 {
+    background: brown src="piture of me.png" center center;
+}
+
+article {
+    column-count: 3;
+    column-gap: 35px;
+    column-rule: 2px dotted rgb(150, 5, 179);
+}
+
+
+
