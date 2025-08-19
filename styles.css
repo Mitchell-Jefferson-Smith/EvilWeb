@@ -48,5 +48,53 @@ article {
     column-rule: 2px dotted rgb(150, 5, 179);
 }
 
+article h2 {
+
+}
 
 
+/* navigsation menu */
+        #nav_menu ul {
+            list-style-type: none;
+            padding: 1em 0;
+            text-align: center;
+            border-top: 2px solid #000000;
+            border-bottom: 2px solid #000000;
+            width: 100%; ;
+        }
+        #nav_menu ul li {
+            display: inline;
+            padding: 0 1.5em;
+            width: 33%;
+        }
+        #nav_menu ul li a {
+            font-weight: bold;
+            color: blue;
+
+        }
+        #nav_menu ul li a.current {
+            text-decoration: none;
+        }
+
+
+        main#ship img {
+            float: left;
+            padding-left: 2em;
+            width: 20%;
+            min-width: 150px;
+        }
+
+        br {
+            clear: both;
+        }
+        
+        @media only screen and (max-width: 700px){
+        #nav_menu ul {
+            list-style-type: none;
+            padding: 1em 0;
+            text-align: left;
+            border-top: 2px solid #7aa700;
+            border-bottom: 2px solid #7aa700;
+            width: 50%; ;
+        }
+        }
