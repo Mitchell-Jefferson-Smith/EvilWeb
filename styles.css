@@ -77,6 +77,7 @@ article h2 {
         }
 
 
+        /* image of submarine */
         main#ship img {
             float: left;
             padding-left: 2em;
@@ -84,10 +85,14 @@ article h2 {
             min-width: 150px;
         }
 
+
+        /* helps push stuf around not to be touching stuff */
         br {
             clear: both;
         }
         
+
+        /* phone small screen stuff */
         @media only screen and (max-width: 700px){
         #nav_menu ul {
             list-style-type: none;
